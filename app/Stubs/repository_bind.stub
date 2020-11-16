@@ -1,0 +1,6 @@
+$this->app->bind(
+            App\Repositories\Interfaces\DummyRepositoryContract::class,
+            App\Repositories\Classes\DummyRepository::class
+        );
+
+        // Repositories above

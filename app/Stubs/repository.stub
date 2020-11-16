@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Repositories\Classes;
+
+use App\Repositories\Interfaces\DummyRepositoryContract;
+use App\Models\Dummy;
+
+class DummyRepository extends Repository implements DummyRepositoryContract
+{
+    public function model()
+    {
+        return Dummy::class;
+    }
+}
